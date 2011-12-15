@@ -1,4 +1,5 @@
-# clj-file-utils
+DESCRIPTION
+===========
 
 Unix-like filesystem manipulation utilities for Clojure, wrapping Apache
 Commons IO.
@@ -6,7 +7,10 @@ Commons IO.
 Includes a `pchmod` function which changes file permissions in a portable
 way.
 
-## Implemented Functions
+Please consider upgrading to Clojure 1.3.0 and using the file manipulation functions in the standard library.
+
+IMPLEMENTED FUNCTIONS
+=====================
 
     cp
     cp-r
@@ -25,7 +29,8 @@ way.
     mkdir-p
     chmod
 
-## Usage
+USAGE
+=====
 
     user=> (use 'clj-file-utils.core)
     nil
@@ -40,7 +45,8 @@ way.
     user=> (.getParent (file "/path/to/foo.txt"))
     "/path/to"
 
-## Authors
+AUTHORS
+=======
 
 Extracted from <http://github.com/mmcgrana/clj-garden> by Mark McGranaghan <mmcgrana@gmail.com>
 
